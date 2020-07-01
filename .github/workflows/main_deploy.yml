@@ -31,3 +31,4 @@ jobs:
       run: npm install -g surge
     - name: deploying using surge
       run: surge bootcamp2020assign1.surge.sh/ --token $ {{ Secrets.SURGE_TOKEN }}
+      shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
